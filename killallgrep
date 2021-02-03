@@ -1,0 +1,2 @@
+#!/bin/bash
+kill -9 $(ps aux | grep $(whoami) | grep "$1" | grep -v grep | awk '{ print $2; }')
