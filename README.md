@@ -1,5 +1,6 @@
 # tiny-command-line-tools
-A set of useful command line tools that you can drop in your local ~/bin directory
+A set of useful command line tools that you can drop in your local ~/bin directory.  
+Most of them are stolen and adapted from the web.
 
 ## csv
 Pretty-prints a csv file. Usage:
