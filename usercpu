@@ -1,3 +1,5 @@
+#!/bin/bash
+
 get_usage() {
     own=$(id -nu)
     cpus=$(lscpu | grep "^CPU(s):" | awk '{print $2}')
